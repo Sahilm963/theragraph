@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 from transformers import pipeline
 
 
-pytesseract.pytesseract.tesseract_cmd = 'Tesseract-OCR/tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = 'Tesseract-OCR/tesseract.exe'
 
 # HuggingFace Transformer for Information Extraction
 hft = pipeline(task="document-question-answering",
